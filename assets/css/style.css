@@ -1,0 +1,126 @@
+html, body{
+    font-family: spartan;
+    font-weight: 400;
+    color: #121212;
+    font-size: 16px;
+}
+
+.container-fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.content-container {
+    max-width: calc(100% - 170px);
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.container-header .contact-container {
+    width: 100%;
+    background-color: #121212;
+}
+
+.container-header .contact-container .content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+}
+
+.container-header .link-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+
+.container-header .contact .link-header {
+    gap: 50px;
+}
+
+.container-header .contact .link-header image{
+    width: 10px;
+}
+
+.container-header .contact .link-header a{
+    font-family: spartan;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 11px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.container-header .contact .link-header .ml-10 {
+    margin-left: 10px;
+}
+
+.container-header .social-network .link-header {
+    gap: 12px;
+}
+
+.container-header .social-network .link-header img{
+    width: 13px;
+    opacity: 0.8;
+}
+
+.container-header .container-logo-nav{
+    border-bottom: 2px solid #F8F8F8;
+}
+
+.container-header .container-logo-nav .content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.container-header .container-logo-nav .logo-header h1{
+    font-family: Spartan-VariableFont;
+    font-size: 36px;
+}
+
+.container-header .container-logo-nav .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 131px;
+}
+
+.container-header .container-logo-nav .nav-container .link-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.container-header .container-logo-nav .nav-container .link-nav a{
+    font-family: spartan;
+    font-weight: 500;
+    font-size: 14px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.container-header .container-logo-nav .nav-container .button-header{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    gap: 30px;
+}
+
+.container-header .container-logo-nav .nav-container .button-header img{
+    width: 19px;
+    height: 100%;
+}
+
+.container-header .container-logo-nav .nav-container .button-header .w-15{
+    width: 15px;    
+}
+
+.container-header .container-logo-nav .nav-container .button-header .w-27{
+    width: 27px;
+}
+
+
+

@@ -1,0 +1,38 @@
+@media screen and (max-width: 1280px) {
+    .content-container {
+        max-width: calc(100% - 130px);
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content-container {
+        max-width: calc(100% - 100px);
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .content-container {
+        max-width: calc(100% - 80px);
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .content-container {
+        max-width: calc(100% - 50px);
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .content-container {
+        max-width: calc(100% - 30px);
+    }
+}
+
+
+
+
+
