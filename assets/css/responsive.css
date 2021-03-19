@@ -91,10 +91,6 @@
         margin: 3.7px 0;
     }
 
-    .container-header .container-logo-nav .nav-container .button-header {
-        gap: 0.7em;
-    }
-
     .container-header .container-logo-nav .content-container {
         padding: 0.7em 15px;
     }
@@ -105,6 +101,10 @@
 @media screen and (max-width: 400px) {
     .content-container {
         max-width: calc(100% - 30px);
+    }
+
+    .container-header .container-logo-nav .nav-container .button-header {
+        display: none;
     }
 }
 
