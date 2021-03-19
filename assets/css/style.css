@@ -15,6 +15,7 @@ html, body{
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
+    font-size: 1rem;
 }
 
 /* HEADER */
@@ -32,11 +33,11 @@ html, body{
 .container-header .link-header {
     display: flex;
     justify-content: space-between;
-    gap: 26px;
+    gap: 1.625em;
 }
 
 .container-header .contact .link-header {
-    gap: 50px;
+    gap: 3.125em;
 }
 
 .container-header .contact .link-header image{
@@ -47,7 +48,7 @@ html, body{
     font-family: spartan;
     font-weight: 500;
     color: #FFFFFF;
-    font-size: 11px;
+    font-size: 0.6875em;
     text-decoration: none;
     opacity: 0.8;
 }
@@ -57,7 +58,7 @@ html, body{
 }
 
 .container-header .social-network .link-header {
-    gap: 12px;
+    gap: 0.75em;
 }
 
 .container-header .social-network .link-header img{
@@ -67,31 +68,32 @@ html, body{
 
 .container-header .container-logo-nav{
     border-bottom: 2px solid #F8F8F8;
+    font-size: 1rem;
 }
 
 .container-header .container-logo-nav .content-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 15px;
+    align-items:flex-end;
+    padding: 1.25em 15px;
 }
 
 .container-header .container-logo-nav .logo-header h1{
     font-family: Spartan-VariableFont;
-    font-size: 36px;
+    font-size: 2.25em;
 }
 
 .container-header .container-logo-nav .nav-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 131px;
+    align-items:flex-end;
+    gap: 8.1875em;
 }
 
 .container-header .container-logo-nav .nav-container .link-nav{
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 2em;
 }
 
 .container-header .container-logo-nav .nav-container .link-nav a{
@@ -106,7 +108,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
-    gap: 30px;
+    gap: 1.875em;
 }
 
 .container-header .container-logo-nav .nav-container .button-header img{
@@ -122,5 +124,35 @@ html, body{
     width: 27px;
 }
 
+/* hamburger */
+
+.hamburger-menu{
+    text-decoration: none;
+    color: #121212;
+    display: none;
+}
+
+.hamburger-menu>span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hamburger-menu div{
+    display: inline-block;
+}
+
+.hamburger-menu div span{
+    width: 15px;
+    display: block;
+    border: 1px solid #121212;
+}
+
+.hamburger-menu .m-5{    
+    margin: 5px 0;
+}
 
 
+
+
+
+  
