@@ -124,6 +124,119 @@ html, body{
     width: 27px;
 }
 
+/* MAIN */
+/* Category */
+
+main{
+    margin-top: 32px;
+    border-bottom: 2px solid #F8F8F8;    
+}
+
+.container-category {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+}
+
+main .container-category .baner {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/Banner.png);
+    width: 540px;
+    height: 490px;
+    max-width: 540px;
+    max-height: 490px;    
+    padding: 24px 32px;
+    box-sizing: border-box;
+}
+
+main .container-category .baner .category-name{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+main .container-category .baner .category-name span{
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+main .container-category .baner .category-name h2{
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+
+.container-category .category {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 540px;
+    height: 490px;
+    max-width: 540px;
+    max-height: 490px;
+}
+
+.container-category .category a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 200px;
+    max-width: 255px;
+    max-height: 200px;
+    text-decoration: none;
+}
+
+.container-category .category .category-women {    
+    background-image: url(../images/women.png);    
+}
+
+.container-category .category .category-men {    
+    background-image: url(../images/men.png);    
+}
+
+.container-category .category .accessories {
+    background-image: url(../images/Accessories.png);
+    width: 540px;
+    height: 260px;
+    max-width: 540px;
+    max-height: 260px;
+}
+
+/* container-service */
+
+main .container-service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+main .container-service div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+}
+
+main .container-service img{
+    width: 30px;
+}
+
+main .container-service h3{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+main .container-service span{
+    font-size: 12px;
+}
+
+
 /* hamburger */
 
 .hamburger-menu{
@@ -149,6 +262,17 @@ html, body{
 
 .hamburger-menu .m-5{    
     margin: 5px 0;
+}
+
+/* Category name */
+
+.category-name {
+    padding: 16px 24px;    
+    color: #121212;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border-radius: 4%;
+    box-sizing: border-box;
 }
 
 
