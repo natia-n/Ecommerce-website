@@ -128,8 +128,7 @@ html, body{
 /* Category */
 
 main{
-    margin-top: 32px;
-    border-bottom: 2px solid #F8F8F8;    
+    margin-top: 32px;      
 }
 
 .container-categories {
@@ -195,6 +194,11 @@ main .container-categories .baner {
 }
 
 /* container-service */
+
+main .fluid-container-service{
+    border-bottom: 2px solid #F8F8F8;  
+}
+
 main .container-service {
     display: flex;
     justify-content: space-between;
@@ -266,11 +270,15 @@ main .category .sub-category {
     position: relative;
 }
 
-main .category .sub-category figure img {
+main .category .sub-category a {
+   display: inline-block;
+}
+
+main .category .sub-category a img {
     width: 100%;
 }
 
-main .category .sub-category figure span {
+main .category .sub-category a span {
     position: absolute;
     background-color: #E91E63;
     font-size: 12px;
@@ -282,31 +290,31 @@ main .category .sub-category figure span {
     left: 0;
 }
 
-main .category .sub-category figcaption h3 {
+main .category .sub-category div h3 {
     font-size: 14px;
     margin-top: 16px;
 }
 
-main .category .sub-category figcaption>div {
+main .category .sub-category div>div {
    display: flex;
    justify-content: space-between;
-   flex-wrap: wrap;
    margin-top: 12px;
+   gap: 4px;
 }
 
-main .category .sub-category figcaption .price span {
+main .category .sub-category div .price span {
     font-size: 14px;
     font-weight: bold;
 }
 
-main .category .sub-category figcaption .price .op-40 {
+main .category .sub-category div .price .op-40 {
     font-size: 12px;
     opacity: 0.4;
     margin-left: 19px;
     text-decoration: line-through;
 }
 
-main .category .sub-category figcaption .rate img{
+main .category .sub-category div .rate img{
     width: 11px;
 }
 
@@ -506,11 +514,14 @@ main .last-from-blog .sub-blog .bacg-color div p {
     line-height: 1.5;
 }
  
+/*  FOOTER */
 
-
-
-
+.container-footer {
+    margin-top: 44px;
+}
   
+
+
 /* hamburger */
 .hamburger-menu{
     text-decoration: none;
@@ -561,7 +572,6 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 /* INPUT */
-
 .input {
     width: 340px;
     height: 64px;
