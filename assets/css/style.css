@@ -128,14 +128,14 @@ html, body{
 /* Category */
 
 main{
-    margin-top: 32px;      
+    margin-top: 2em;      
 }
 
 .container-categories {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* gap: 30px; */
+    gap: 30px;
 }
 
 main .container-categories .baner {
@@ -194,7 +194,6 @@ main .container-categories .baner {
 }
 
 /* container-service */
-
 main .fluid-container-service{
     border-bottom: 2px solid #F8F8F8;  
 }
@@ -203,11 +202,12 @@ main .container-service {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    gap: 1.25em;
+    margin-top: 2.1875em;
+    margin-bottom: 2.187em;
 }
 
-main .container-service div{
+main .container-service div>div{
     display: inline-block;
     vertical-align: middle;
     margin-left: 13px;
@@ -218,17 +218,18 @@ main .container-service img{
 }
 
 main .container-service h3{
-    font-size: 12px;
-    margin-top: 8px;
+    font-size: 0.75em;
+    margin-top: 0.666em;
+    margin-bottom: 0.666em;
 }
 
 main .container-service span{
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 /* category */
 main .category{
-    margin-top: 84px;
+    margin-top: 5.25em;
 }
 
 main .category header{
@@ -237,7 +238,7 @@ main .category header{
 }
 
 main .category h2 {
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 main .category nav{
@@ -247,12 +248,12 @@ main .category nav{
 main .category nav ul {
     display: flex;
     justify-content: space-between;
-    gap: 57px;
+    gap: 3.5625em;
     flex-wrap: wrap;
 }
 
 main .category nav ul li a {
-    font-size: 12px;
+    font-size: 0.75em;
     text-decoration: none;
     color: #121212;
 }
@@ -261,12 +262,13 @@ main .category .category-womens-mens {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 36px;
+    gap: 1.875em;
+    margin-top: 2.25em;
 }
 
 main .category .sub-category {
     width: 255px;
+    max-width: 255px;
     position: relative;
 }
 
@@ -281,36 +283,36 @@ main .category .sub-category a img {
 main .category .sub-category a span {
     position: absolute;
     background-color: #E91E63;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: bold;
     color: #FFFFFF;
-    padding: 13px 13px 9px 13px;
+    padding: 1.0833em 1.0833em 0.75em 1.0833em;
     box-sizing: border-box;
     top: 0;
     left: 0;
 }
 
 main .category .sub-category div h3 {
-    font-size: 14px;
-    margin-top: 16px;
+    font-size: 0.875em;
+    margin-top: 1.142857em;
+    margin-bottom: 0.8571em;
 }
 
 main .category .sub-category div>div {
    display: flex;
    justify-content: space-between;
-   margin-top: 12px;
    gap: 4px;
 }
 
 main .category .sub-category div .price span {
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: bold;
 }
 
 main .category .sub-category div .price .op-40 {
-    font-size: 12px;
+    font-size: 0.75em;
     opacity: 0.4;
-    margin-left: 19px;
+    margin-left: 1.58333em;
     text-decoration: line-through;
 }
 
@@ -320,23 +322,24 @@ main .category .sub-category div .rate img{
 
 main .category .see-all {
     background-color: #F8F8F8;
-    margin-top: 48px;
+    margin-top: 3em;
     text-align: center;
-    padding: 16px 0;
+    padding: 1em 0;
 }
 
 main .category .see-all a {
-    font-size: 13px;
+    font-size: 0.8125em;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* section-news */
-
 main .section-news {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 96px;
+    gap: 1.875em;
+    margin-top: 6em;
 }
 
 main .section-news div {
@@ -364,7 +367,7 @@ main .section-news div span {
 }
   
 main .section-news div h2 {
-    font-size: 16px;
+    font-size: 1em;
     display: inline-block;
 }
 
@@ -375,12 +378,11 @@ main .section-news div h2 {
 }
 
 /*  special-offer  */
-
 main .special-offer {
     width: 100%;
     height: 580px;
     max-height: 580px;
-    margin-top: 96px;
+    margin-top: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -393,19 +395,21 @@ main .special-offer img {
 }
 
 main .special-offer .women {
-    left: 37px;
-    top: 36px;
+    left: 2.3125em;
+    top: 2.25em;
 }
 
 main .special-offer .men {
-    right: 102px;
-    top: 45px;
+    right: 6.375em;
+    top: 2.8125em;
 }
 
 main .special-offer .terms-offer {
     text-align: center;
     width: 532px;
     height: 461px;
+    max-width: 532px;
+    max-height: 461px;
     background-color: #FFFFFF;
     border-radius: 4px;
     display: flex;
@@ -413,13 +417,13 @@ main .special-offer .terms-offer {
 }
 
 main .special-offer .terms-offer span {
-    font-size: 12px;
+    font-size: 0.75em;
     opacity: 0.4;
 }
 
 main .special-offer .terms-offer h2 {
-    font-size: 26px;
-    margin-top: 16px;
+    font-size: 1.625em;
+    margin-top: 0.615238em;
 }
 
 main .special-offer .terms-offer div div h2{
@@ -427,13 +431,13 @@ main .special-offer .terms-offer div div h2{
 } 
 
 main .special-offer .terms-offer .email {
-    margin-top: 32px;
-    margin-bottom: 24px;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
 }
 
 /* last-from-blog */
 main .last-from-blog header {
-    margin-top: 90px;
+    margin-top: 5.625em;
 }
 
 main .last-from-blog header {
@@ -442,21 +446,22 @@ main .last-from-blog header {
 }
 
 main .last-from-blog header h2 {
-    font-size: 22px;
+    font-size: 1.375em;
     text-transform: capitalize;
 }
 
 main .last-from-blog header span {
-    font-size: 12px;
+    font-size: 0.75em;
     opacity: 0.4;
     text-transform: uppercase;
 }
 
 main .last-from-blog .container-sub-blog  {
-    margin-top: 48px;   
+    margin-top: 3em;   
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1.25em;
 }
 
 main .last-from-blog .sub-blog .bacg-img {
@@ -496,22 +501,22 @@ main .last-from-blog .sub-blog .bacg-color div {
     max-height: 174px;
     left: 0;
     bottom: 0;
-    padding: 24px 16px 5px 16px;
+    padding: 1.5em 1em 0.3125em 1em;
     box-sizing: border-box;
     background-color: #FFFFFF;
-    top: -58px;
+    top: -3.625em;
     margin: 0 auto;
 }
 
 main .last-from-blog .sub-blog .bacg-color div h3 {
-    font-size: 14px;
+    font-size: 0.875em;
     text-transform: uppercase;
 }
 
 main .last-from-blog .sub-blog .bacg-color div p {
-    font-size: 14px;
-    margin-top: 12px;
-    line-height: 1.5;
+    font-size: 0.875em;
+    margin-top: 0.85714em;
+    line-height: 1.6;
 }
  
 /*  FOOTER */
@@ -530,7 +535,7 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .hamburger-menu>span{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 600;
 }
 
@@ -553,28 +558,30 @@ main .last-from-blog .sub-blog .bacg-color div p {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    padding: 16px 24px;    
-    color: #121212;
-    font-size: 14px;
+    font-size: 0.875em;
+    padding: 1.142857em 1.7142857em;    
+    color: #121212;    
     background-color: #FFFFFF;
     border-radius: 4%;
     box-sizing: border-box;
 }
 
 .category-name span{
-    font-size: 12px;
+    font-size: 0.875em;
     opacity: 0.4;
 }
 
 .category-name h2{
-    font-size: 22px;
-    margin-top: 15px;
+    font-size: 1.375em;
+    margin-top: 0.681818em;
 }
 
 /* INPUT */
 .input {
     width: 340px;
     height: 64px;
+    max-width: 340px;
+    max-height: 64px;
     border: none;
     background-color: #F8F8F8;
     padding: 0;
