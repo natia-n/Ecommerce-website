@@ -524,6 +524,64 @@ main .last-from-blog .sub-blog .bacg-color div p {
 .container-footer {
     margin-top: 44px;
 }
+
+.container-footer .footer-header {
+    background-color: #121212;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+.container-footer .footer-header .content-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.container-footer .footer-header .content-container h2 {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.container-footer .footer-header .content-container .input-email {
+    padding: 9px 270px 9px 16px;
+    background-color: #707070;
+    border: none;
+    color: #FFFFFF;
+}
+
+.container-footer .footer-header .content-container .input-email::placeholder {
+    font-size: 13;
+    opacity: 0.4;
+    color: #FFFFFF;
+}
+
+
+.container-footer .footer-header .content-container .submit {
+    padding: 8px 24px 7px 24px;
+    background-color: #121212;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.container-footer .footer-header .content-container .submit::placeholder {
+    font-size: 19;
+    opacity: 0.9;
+    color: #FFFFFF;
+}
+ 
+.container-footer .footer-header .content-container .social-network {
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+}
+
+.container-footer .footer-header .content-container .social-network img {
+    width: 15px;
+}
+
+  
   
 
 
