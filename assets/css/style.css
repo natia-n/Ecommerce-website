@@ -126,7 +126,6 @@ html, body{
 
 /* MAIN */
 /* Category */
-
 main{
     margin-top: 2em;      
 }
@@ -138,18 +137,37 @@ main{
     gap: 30px;
 }
 
-main .container-categories .baner {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url(../images/category/Banner.png);
-    background-size: cover;
-    width: 540px;
-    height: 490px;
-    max-width: 540px;
-    max-height: 490px;    
-    padding: 24px 32px;
+main .container-categories .baner {    
+    width: 540px;   
+    max-width: 540px; 
     box-sizing: border-box;
+    position: relative;
+}
+
+main .container-categories .baner img {
+    width: 100%;
+}
+
+main .container-categories .baner>div {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: +1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+main .container-categories .baner>div a{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main .container-categories .baner>div img{
+   width: 40px;
 }
 
 .container-categories .category-title {
@@ -163,34 +181,42 @@ main .container-categories .baner {
     max-height: 490px;
 }
 
-.container-categories .category-title a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+.container-categories .category-title div {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container-categories .category-title img {
+    width: 100%;
+}
+
+.container-categories .category-title .sub-category-title {
+    position: relative;
     width: 255px;
     height: 200px;
     max-width: 255px;
     max-height: 200px;
+}
+
+.container-categories .category-title a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-}
-
-.container-categories .category-title .category-women {    
-    background-image: url(../images/category/women.png);  
-    background-size: cover;  
-}
-
-.container-categories .category-title .category-men {    
-    background-image: url(../images/category/men.png);   
-    background-size: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .container-categories .category-title .accessories {
-    background-image: url(../images/category/Accessories.png);
-    background-size: cover;
     width: 540px;
     height: 260px;
     max-width: 540px;
     max-height: 260px;
+    position: relative;
 }
 
 /* container-service */
@@ -379,41 +405,23 @@ main .section-news div h2 {
 
 /*  special-offer  */
 main .special-offer {
-    width: 100%;
-    height: 580px;
-    max-height: 580px;
     margin-top: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: #F3F2F2;
 }
 
 main .special-offer img {
-    position: absolute;
-}
-
-main .special-offer .women {
-    left: 2.3125em;
-    top: 2.25em;
-}
-
-main .special-offer .men {
-    right: 6.375em;
-    top: 2.8125em;
+    width: 100%;
 }
 
 main .special-offer .terms-offer {
     text-align: center;
     width: 532px;
-    height: 461px;
     max-width: 532px;
-    max-height: 461px;
-    background-color: #FFFFFF;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
+    position: absolute;
 }
 
 main .special-offer .terms-offer span {
@@ -674,8 +682,6 @@ main .last-from-blog .sub-blog .bacg-color div p {
     width: 47px;
 }
 
-
-
 /* hamburger */
 .hamburger-menu{
     text-decoration: none;
@@ -751,5 +757,3 @@ main .last-from-blog .sub-blog .bacg-color div p {
     color: #FFFFFF;
     opacity: 0.9;
 }
-
-
