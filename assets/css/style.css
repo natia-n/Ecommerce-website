@@ -520,7 +520,6 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
  
 /*  FOOTER */
-
 .container-footer {
     margin-top: 44px;
 }
@@ -544,33 +543,37 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .container-footer .footer-header .content-container .input-email {
-    padding: 9px 270px 9px 16px;
-    background-color: #707070;
+    width: 400px;
+    height: 32px;
+    max-width: 400px;
+    max-height: 32px;
+    padding: 0 20px;
+    background-color: #FFFFFF;
     border: none;
-    color: #FFFFFF;
+    opacity: 0.2;
+    box-sizing: border-box;
 }
 
 .container-footer .footer-header .content-container .input-email::placeholder {
-    font-size: 13;
-    opacity: 0.4;
-    color: #FFFFFF;
+    font-size: 13px;
+    color: #0f0e0e;
+    opacity: 1;
 }
 
-
-.container-footer .footer-header .content-container .submit {
-    padding: 8px 24px 7px 24px;
+.container-footer .footer-header .content-container .submit-footer {
+    width: 108px;
+    height: 32px;
+    max-width: 108px;
+    max-height: 32px;
     background-color: #121212;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     margin-left: 12px;
+    font-size: 12px;
+    opacity: 0.9;
+    text-transform: uppercase;
 }
 
-.container-footer .footer-header .content-container .submit::placeholder {
-    font-size: 19;
-    opacity: 0.9;
-    color: #FFFFFF;
-}
- 
 .container-footer .footer-header .content-container .social-network {
    display: flex;
    justify-content: space-between;
@@ -581,8 +584,96 @@ main .last-from-blog .sub-blog .bacg-color div p {
     width: 15px;
 }
 
-  
-  
+.container-footer .container-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.container-footer .container-contact div {
+    display: inline-block;
+}
+
+.container-footer .container-contact div ul li {
+    margin-bottom: 19px;
+}
+
+.container-footer .container-contact div ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #121212;
+    opacity: 0.8;
+}
+
+.container-footer .container-contact div ul :first-child a {
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.container-footer .container-contact div ul li a img {
+    width: 13px;
+    margin-right: 11px;
+}
+
+.container-footer .payment-service {
+    background-color: #F8F8F8;
+    margin-top: 29px;
+}
+
+.container-footer .payment-service .content-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 12px 15px;
+}
+
+.container-footer .payment-service .content-container span {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.container-footer .payment-service .content-container .author :last-child {
+    font-weight: 600;
+}
+
+.container-footer .payment-service .content-container .cards-name .stripe {
+    width: 43px;
+}
+
+.container-footer .payment-service .content-container .cards-name {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.container-footer .payment-service .content-container .cards-name .aed56 {
+    width: 31px;
+}
+
+.container-footer .payment-service .content-container .cards-name .paypal {
+    width: 61px;
+}
+
+.container-footer .payment-service .content-container .cards-name .visa {
+    width: 52px;
+}
+
+.container-footer .payment-service .content-container .cards-name .mastercard {
+    width: 27px;
+}
+
+.container-footer .payment-service .content-container .cards-name .discover{
+    width: 50px;
+}
+
+.container-footer .payment-service .content-container .cards-name .american-expressr{
+    width: 47px;
+}
+
 
 
 /* hamburger */
