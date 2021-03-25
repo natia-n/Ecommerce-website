@@ -139,7 +139,9 @@ main{
 
 main .container-categories .baner {    
     width: 540px;   
+    height: 490px;
     max-width: 540px; 
+    max-height: 490px;
     box-sizing: border-box;
     position: relative;
 }
@@ -376,16 +378,21 @@ main .section-news div {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-main .section-news .new-season {
-    background-image: url(../images/baner-new-season.png);
-    background-size: cover;
+main .section-news img {
+    width: 100%;
 }
 
-main .section-news .sale {
-    background-image: url(../images/baner-sale.png);
-    background-size: cover;
+main .section-news .abs div{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 main .section-news div span {
@@ -477,20 +484,10 @@ main .last-from-blog .sub-blog .bacg-img {
     height: 276px;
     max-width: 350px;
     max-height: 276px;
-    background-image: url(../images/LATEST-FROM-BLOG-baner-1.png);
-    background-size: cover;
 }
 
-main .last-from-blog .sub-blog .bacg-img-1 {
-    background-image: url(../images/LATEST-FROM-BLOG-baner-1.png);
-}
-
-main .last-from-blog .sub-blog .bacg-img-2 {
-    background-image: url(../images/LATEST-FROM-BLOG-baner-2.png);
-}
-
-main .last-from-blog .sub-blog .bacg-img-3 {
-    background-image: url(../images/LATEST-FROM-BLOG-baner-3.png);
+main .last-from-blog .sub-blog .bacg-img img{
+    width: 100%;    
 }
 
 main .last-from-blog .sub-blog .bacg-color {
