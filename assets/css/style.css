@@ -112,16 +112,16 @@ html, body{
 }
 
 .container-header .container-logo-nav .nav-container .button-header img{
-    width: 19px;
+    width: 1.1875em;
     height: 100%;
 }
 
 .container-header .container-logo-nav .nav-container .button-header .w-15{
-    width: 15px;    
+    width: 1.0666em;    
 }
 
 .container-header .container-logo-nav .nav-container .button-header .w-27{
-    width: 27px;
+    width: 1.6875em;
 }
 
 /* MAIN */
@@ -134,7 +134,7 @@ main{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.875em;
 }
 
 main .container-categories .baner {    
@@ -169,14 +169,14 @@ main .container-categories .baner>div a{
 }
 
 main .container-categories .baner>div img{
-   width: 40px;
+   width: 2.5em;
 }
 
 .container-categories .category-title {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.875em;
     width: 540px;
     height: 490px;
     max-width: 540px;
@@ -186,7 +186,7 @@ main .container-categories .baner>div img{
 .container-categories .category-title div {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 1.875em;
 }
 
 .container-categories .category-title img {
@@ -238,11 +238,11 @@ main .container-service {
 main .container-service div>div{
     display: inline-block;
     vertical-align: middle;
-    margin-left: 13px;
+    margin-left: 0.8125em;
 }
 
 main .container-service img{
-    width: 30px;
+    width: 1.875em;
 }
 
 main .container-service h3{
@@ -543,16 +543,16 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .container-footer .footer-header .content-container h2 {
-    font-size: 12px;
+    font-size: 0.75em;
     color: #FFFFFF;
 }
 
 .container-footer .footer-header .content-container .input-email {
-    width: 400px;
-    height: 32px;
-    max-width: 400px;
-    max-height: 32px;
-    padding: 0 20px;
+    width: 25em;
+    height: 2em;
+    max-width: 25em;
+    max-height: 2em;
+    padding: 0 1.25em;
     background-color: #FFFFFF;
     border: none;
     opacity: 0.2;
@@ -560,21 +560,21 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .container-footer .footer-header .content-container .input-email::placeholder {
-    font-size: 13px;
+    font-size: 0.8125em;
     color: #0f0e0e;
     opacity: 1;
 }
 
 .container-footer .footer-header .content-container .submit-footer {
-    width: 108px;
-    height: 32px;
-    max-width: 108px;
-    max-height: 32px;
+    width: 9em;
+    height: 2.6666em;
+    max-width: 9em;
+    max-height: 2.6666em;
     background-color: #121212;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
-    margin-left: 12px;
-    font-size: 12px;
+    font-size: 0.75em;
+    margin-left: 1em;
     opacity: 0.9;
     text-transform: uppercase;
 }
@@ -582,19 +582,19 @@ main .last-from-blog .sub-blog .bacg-color div p {
 .container-footer .footer-header .content-container .social-network {
    display: flex;
    justify-content: space-between;
-   gap: 15px;
+   gap: 0.9375em;
 }
 
 .container-footer .footer-header .content-container .social-network img {
-    width: 15px;
+    width: 0.9375em;
 }
 
 .container-footer .container-contact {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 40px;
+    gap: 1.875em;
+    margin-top: 2.5em;
 }
 
 .container-footer .container-contact div {
@@ -602,12 +602,12 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .container-footer .container-contact div ul li {
-    margin-bottom: 19px;
+    margin-bottom: 1.1875em;
 }
 
 .container-footer .container-contact div ul li a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.75em;
     color: #121212;
     opacity: 0.8;
 }
@@ -618,25 +618,25 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .container-footer .container-contact div ul li a img {
-    width: 13px;
-    margin-right: 11px;
+    width: 0.8125em;
+    margin-right: 0.6875em;
 }
 
 .container-footer .payment-service {
     background-color: #F8F8F8;
-    margin-top: 29px;
+    margin-top: 1.8125em;
 }
 
 .container-footer .payment-service .content-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.875em;
     padding: 12px 15px;
 }
 
 .container-footer .payment-service .content-container span {
-    font-size: 12px;
+    font-size: 0.75em;
     opacity: 0.8;
 }
 
@@ -645,38 +645,38 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .container-footer .payment-service .content-container .cards-name .stripe {
-    width: 43px;
+    width: 2.6875em;
 }
 
 .container-footer .payment-service .content-container .cards-name {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 0.75em;
 }
 
 .container-footer .payment-service .content-container .cards-name .aed56 {
-    width: 31px;
+    width: 1.9375em;
 }
 
 .container-footer .payment-service .content-container .cards-name .paypal {
-    width: 61px;
+    width: 3.8125em;
 }
 
 .container-footer .payment-service .content-container .cards-name .visa {
-    width: 52px;
+    width: 3.25em;
 }
 
 .container-footer .payment-service .content-container .cards-name .mastercard {
-    width: 27px;
+    width: 1.6875em;
 }
 
 .container-footer .payment-service .content-container .cards-name .discover{
-    width: 50px;
+    width: 3.125em;
 }
 
 .container-footer .payment-service .content-container .cards-name .american-expressr{
-    width: 47px;
+    width: 2.9375em;
 }
 
 /* hamburger */
@@ -730,10 +730,10 @@ main .last-from-blog .sub-blog .bacg-color div p {
 
 /* INPUT */
 .input {
-    width: 340px;
-    height: 64px;
-    max-width: 340px;
-    max-height: 64px;
+    width: 21.25em;
+    height: 4em;
+    max-width: 21.25em;
+    max-height: 4em;
     border: none;
     background-color: #F8F8F8;
     padding: 0;
