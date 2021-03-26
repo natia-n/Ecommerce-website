@@ -11,11 +11,11 @@ html, body{
 }
 
 .content-container {
-    max-width: calc(100% - 170px);
+    max-width: calc(100% - 140px);
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 /* HEADER */
@@ -68,7 +68,7 @@ html, body{
 
 .container-header .container-logo-nav{
     border-bottom: 2px solid #F8F8F8;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 .container-header .container-logo-nav .content-container{
@@ -99,7 +99,7 @@ html, body{
 .container-header .container-logo-nav .nav-container .link-nav a{
     font-family: spartan;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #121212;
     text-decoration: none;
 }
@@ -302,6 +302,7 @@ main .category .sub-category {
 
 main .category .sub-category a {
    display: inline-block;
+   width: 100%;
 }
 
 main .category .sub-category a img {
