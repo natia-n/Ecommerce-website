@@ -1,62 +1,37 @@
 
-@media screen and (max-width: 1920px) and (min-width: 1690px) {
+@media screen and (max-width: 1920px) and (min-width: 1660px) {
     html, body{        
         font-size: 20px;
     }
-
-    .content-container {
-        max-width: calc(100% - 200px);
-    }
-
-    main .category .sub-category {
-        width: 320px;
-        max-width: 320px;
-    }
 }
 
 
-@media screen and (max-width: 1689px) and (min-width: 1400px) {
+@media screen and (max-width: 1659px) and (min-width: 1400px) {
     html, body{        
         font-size: 17px;
     }
-
-    .content-container {
-        max-width: calc(100% - 170px);
-    }
-
-    main .category .sub-category {
-        width: 275px;
-        max-width: 275px;
-    }
 }
-
 
 
 @media screen and (max-width: 1280px) {
-    .content-container {
-        max-width: calc(100% - 130px);
-    }
-}
-
-
-@media screen and (max-width: 1200px) {
-    .content-container {
-        max-width: calc(100% - 100px);
+    .container-categories {
+        font-size: 12px;
     }
 
-    .container-header .container-logo-nav .nav-container {
-        gap: 2em;
+    main .section-news {
+        font-size: 12px;
     }
 
-    .container-header .container-logo-nav .nav-container .link-nav {
-        gap: 1.5em;
+    main .last-from-blog .container-sub-blog {
+        font-size: 12px;
     }
 }
 
 
 @media screen and (max-width: 1024px) {
-    .content-container {
-        max-width: calc(100% - 100px);
+
+    html, body{
+        font-size: 12px;
     }
 
     .hamburger-menu{
@@ -66,18 +41,35 @@
     .nav-container nav{
         display: none;
     }
+
+    .container-categories {
+        font-size: 9px;
+    }
+
+    main .fluid-container-service {
+        font-size: 9px;
+    }
+
+    main .section-news {
+        font-size: 9px;
+    }
+
+    main .last-from-blog .container-sub-blog {
+        font-size: 9px;
+    }
+
+    main .special-offer .terms-offer {
+        font-size: 11px;
+    }
+
+    .container-footer .payment-service .content-container {
+        font-size: 11px;
+    }
+
 }
 
 
 @media screen and (max-width: 800px) {
-    .content-container {
-        max-width: calc(100% - 80px);
-    }
-
-    html, body{
-        font-size: 14px;
-    }
-
     .container-header .link-header .d-none{
         display: none;
     }
@@ -85,56 +77,39 @@
     .container-header .link-header a:hover{
         display: none;
     }
+
+    .container-footer .footer-header .content-container .input-email {
+        width: 14em;
+        max-width: 14em;
+        
+    }
 }
 
 
 @media screen and (max-width: 600px) {
-    .content-container {
-        max-width: calc(100% - 50px);
-    }
-
     html, body{
         font-size: 12px;
+    }
+
+    main .special-offer .terms-offer {
+        font-size: 7px;
     }
 
     .container-header .container-logo-nav .logo-header h1 {
         font-size: 1.7em;
     }
 
-    .container-header .container-logo-nav .nav-container .button-header img {
-        width: 15px;
-    }
-
-    .container-header .container-logo-nav .nav-container .button-header .w-15 {
-        width: 13px;
-    }
-
-    .container-header .container-logo-nav .nav-container .button-header .w-27 {
-        width: 23px;
-    }
-
-    .hamburger-menu div span {
-        width: 12px;
-    }
-
-    .hamburger-menu>span {
-        font-size: 16px;
-    }
-
-    .hamburger-menu .m-5 {
-        margin: 3.7px 0;
-    }
-
-    .container-header .container-logo-nav .content-container {
-        padding: 0.7em 15px;
+    .container-categories .category-title div {
+        flex-wrap: wrap;
     }
     
 }
 
 
 @media screen and (max-width: 400px) {
-    .content-container {
-        max-width: calc(100% - 30px);
+
+    html, body{
+        font-size: 11px;
     }
 
     .container-header .container-logo-nav .nav-container .button-header {

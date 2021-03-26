@@ -11,7 +11,7 @@ html, body{
 }
 
 .content-container {
-    max-width: calc(100% - 140px);
+    max-width: calc(100% - 8.75em);
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -62,7 +62,7 @@ html, body{
 }
 
 .container-header .social-network .link-header img{
-    width: 13px;
+    width: 0.8125em;
     opacity: 0.8;
 }
 
@@ -138,10 +138,10 @@ main{
 }
 
 main .container-categories .baner {    
-    width: 540px;   
-    height: 490px;
-    max-width: 540px; 
-    max-height: 490px;
+    width: 33.75em;   
+    height: 30.625em;
+    max-width: 33.75em; 
+    max-height: 30.625em;
     box-sizing: border-box;
     position: relative;
 }
@@ -177,10 +177,10 @@ main .container-categories .baner>div img{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1.875em;
-    width: 540px;
-    height: 490px;
-    max-width: 540px;
-    max-height: 490px;
+    width: 33.75em;
+    height: 30.625em;
+    max-width: 33.75em;
+    max-height: 30.625em;
 }
 
 .container-categories .category-title div {
@@ -195,10 +195,10 @@ main .container-categories .baner>div img{
 
 .container-categories .category-title .sub-category-title {
     position: relative;
-    width: 255px;
-    height: 200px;
-    max-width: 255px;
-    max-height: 200px;
+    width: 15.9375em;
+    height: 12.5em;
+    max-width: 15.9375em;
+    max-height: 12.5em;
 }
 
 .container-categories .category-title a {
@@ -214,10 +214,10 @@ main .container-categories .baner>div img{
 }
 
 .container-categories .category-title .accessories {
-    width: 540px;
-    height: 260px;
-    max-width: 540px;
-    max-height: 260px;
+    width: 33.75em;
+    height: 16.25em;
+    max-width: 33.75em;
+    max-height: 16.25em;
     position: relative;
 }
 
@@ -295,8 +295,8 @@ main .category .category-womens-mens {
 }
 
 main .category .sub-category {
-    width: 255px;
-    max-width: 255px;
+    width: 15.9375em;
+    max-width: 15.9375em;
     position: relative;
 }
 
@@ -346,7 +346,7 @@ main .category .sub-category div .price .op-40 {
 }
 
 main .category .sub-category div .rate img{
-    width: 11px;
+    width: 0.6875em;
 }
 
 main .category .see-all {
@@ -372,10 +372,10 @@ main .section-news {
 }
 
 main .section-news div {
-    width: 540px;
-    height: 260px;
-    max-width: 540px;
-    max-height: 260px;
+    width: 33.75em;
+    height: 16.25em;
+    max-width: 33.75em;
+    max-height: 16.25em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -426,9 +426,9 @@ main .special-offer img {
 
 main .special-offer .terms-offer {
     text-align: center;
-    width: 532px;
-    max-width: 532px;
-    border-radius: 4px;
+    width: 33.25em;
+    max-width: 33.25em;
+    border-radius: 0.25em;
     position: absolute;
 }
 
@@ -481,10 +481,10 @@ main .last-from-blog .container-sub-blog  {
 }
 
 main .last-from-blog .sub-blog .bacg-img {
-    width: 350px;
-    height: 276px;
-    max-width: 350px;
-    max-height: 276px;
+    width: 21.875em;
+    height: 17.25em;
+    max-width: 21.875em;
+    max-height: 17.25em;
 }
 
 main .last-from-blog .sub-blog .bacg-img img{
@@ -493,18 +493,18 @@ main .last-from-blog .sub-blog .bacg-img img{
 
 main .last-from-blog .sub-blog .bacg-color {
     background-color: #FEFEFE;
-    width: 350px;
-    height: 118px;
-    max-width: 350px;
-    max-height: 118px;
+    width: 21.875em;
+    height: 7.375em;
+    max-width: 21.875em;
+    max-height: 7.375em;
 }
 
 main .last-from-blog .sub-blog .bacg-color div {
    position: relative;
-    width: 302px;
-    height: 174px;
-    max-width: 302px;
-    max-height: 174px;
+    width: 18.875em;
+    height: 10.875em;
+    max-width: 18.875em;
+    max-height: 10.875em;
     left: 0;
     bottom: 0;
     padding: 1.5em 1em 0.3125em 1em;
@@ -527,12 +527,12 @@ main .last-from-blog .sub-blog .bacg-color div p {
  
 /*  FOOTER */
 .container-footer {
-    margin-top: 44px;
+    margin-top: 2.75em;
 }
 
 .container-footer .footer-header {
     background-color: #121212;
-    padding: 15px 0;
+    padding: 0.9375em 0;
     box-sizing: border-box;
 }
 
@@ -633,7 +633,7 @@ main .last-from-blog .sub-blog .bacg-color div p {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1.875em;
-    padding: 12px 15px;
+    padding: 0.75em 15px;
 }
 
 .container-footer .payment-service .content-container span {
@@ -697,13 +697,13 @@ main .last-from-blog .sub-blog .bacg-color div p {
 }
 
 .hamburger-menu div span{
-    width: 15px;
+    width: 0.9375em;
     display: block;
     border: 1px solid #121212;
 }
 
 .hamburger-menu .m-5{    
-    margin: 5px 0;
+    margin: 0.3125em 0;
 }
 
 /* Category name */
