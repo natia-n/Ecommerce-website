@@ -286,6 +286,10 @@ main .category nav ul li a {
     color: #121212;
 }
 
+.category-menu{
+    display: none;
+}
+
 main .category .category-womens-mens {
     display: flex;
     justify-content: space-between;

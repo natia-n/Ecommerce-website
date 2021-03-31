@@ -14,21 +14,14 @@
 
 
 @media screen and (max-width: 1280px) {
-    .container-categories {
-        font-size: 12px;
+    html, body{
+        font-size: 14px;
     }
 
-    main .section-news {
-        font-size: 12px;
-    }
-
-    main .last-from-blog .container-sub-blog {
-        font-size: 12px;
-    }
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
 
     html, body{
         font-size: 12px;
@@ -42,34 +35,37 @@
         display: none;
     }
 
-    .container-categories {
-        font-size: 9px;
+    .category-menu{
+        display: none;
     }
+        
+}
 
-    main .fluid-container-service {
-        font-size: 9px;
+@media screen and (max-width: 970px) {
+    .container-categories {
+        font-size: 11px;
     }
 
     main .section-news {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     main .last-from-blog .container-sub-blog {
-        font-size: 9px;
-    }
-
-    main .special-offer .terms-offer {
         font-size: 11px;
     }
 
-    .container-footer .payment-service .content-container {
-        font-size: 11px;
+    .category-menu{
+        display: inline-block;
     }
 
+    main .category nav {
+        display: none;
+    }
+    
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .container-header .link-header .d-none{
         display: none;
     }
@@ -78,23 +74,56 @@
         display: none;
     }
 
+    .container-categories {
+        font-size: 13px;
+        justify-content: center;
+    }
+
+    main .section-news {
+        font-size: 13px;
+        justify-content: center;
+    }
+
+    main .last-from-blog .container-sub-blog {
+        font-size: 13px;
+        justify-content: space-around;
+    }
+
+    main .section-news {
+        margin-top: 2em;
+    }
+
+    main .special-offer .terms-offer {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+    main .category nav {
+        display: none;
+    }
+
+    .container-footer .footer-header .content-container {
+        font-size: 11px;
+    }
+
     .container-footer .footer-header .content-container .input-email {
-        width: 14em;
-        max-width: 14em;
-        
+        width: 18em;
+        max-width: 18em;        
+    }
+
+    .container-footer .container-contact {
+        font-size: 11px;
+    }
+
+    .container-footer .payment-service .content-container {
+        font-size: 11px;
     }
 }
 
 
 @media screen and (max-width: 600px) {
-    html, body{
-        font-size: 12px;
-    }
-
-    main .special-offer .terms-offer {
-        font-size: 7px;
-    }
-
     .container-header .container-logo-nav .logo-header h1 {
         font-size: 1.7em;
     }
@@ -102,7 +131,16 @@
     .container-categories .category-title div {
         flex-wrap: wrap;
     }
-    
+
+    .container-header .container-logo-nav .nav-container .button-header {
+        display: none;
+    }
+
+    main .container-categories .baner {
+        height: auto;
+    }
+
+        
 }
 
 
@@ -116,8 +154,4 @@
         display: none;
     }
 }
-
-
-
-
 
