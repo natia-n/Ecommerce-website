@@ -1,3 +1,9 @@
+@media screen and (min-width: 1921px) {
+    html, body{        
+        font-size: 20px;
+    }
+}
+
 
 @media screen and (max-width: 1920px) and (min-width: 1660px) {
     html, body{        
@@ -128,6 +134,10 @@
         font-size: 1.7em;
     }
 
+    .content-container {
+        max-width: calc(100% - 6.75em);
+    }
+
     .container-categories .category-title div {
         flex-wrap: wrap;
     }
@@ -140,7 +150,64 @@
         height: auto;
     }
 
-        
+    main .category .category-womens-mens {
+        justify-content: center;
+    }
+
+    .container-categories .category-title>div {
+        justify-content: center;
+    }
+
+    main .section-news div {
+        width: 100%;
+    }
+
+    .container-footer .footer-header .content-container {
+        gap: 1em;
+    }
+
+    .container-footer .footer-header .content-container .input-email {
+        width: 17em;
+    }
+      
+    .container-footer .payment-service .content-container .cards-name {
+        font-size: 10px;
+    }
+
+    main .section-news {
+        margin-top: 1em;
+    }
+
+    main .special-offer {
+        margin-top: 3em;
+    }
+
+    main .container-categories .baner>div a {
+        font-size: 11px;
+    }
+
+    main .special-offer .terms-offer {
+        font-size: 9px;
+    }
+
+    main .special-offer {
+        overflow: hidden;
+    }
+
+    main .special-offer img {
+        width: 120%;
+    }
+
+    main .last-from-blog header h2 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    main .category .sub-category {
+        width: 19em;        
+    }
+
 }
 
 
@@ -150,8 +217,55 @@
         font-size: 11px;
     }
 
+    .content-container {
+        max-width: calc(100% - 5em);
+    }
+
     .container-header .container-logo-nav .nav-container .button-header {
         display: none;
     }
-}
 
+    main .container-categories .baner>div a {
+        font-size: 8px;
+    }
+
+    main .container-service {
+        font-size: 9px;
+    }
+
+    main .special-offer .terms-offer {
+        font-size: 7px;
+    }
+
+    main .last-from-blog .container-sub-blog {
+        font-size: 11px;
+    }
+
+    main .last-from-blog header h2 {
+        font-size: 0.8em;
+    }
+
+    main .section-news {
+        font-size: 7px;
+    }
+
+    .container-footer .footer-header .content-container .input-email {
+        width: 13em;
+    }
+
+    .container-footer .payment-service .content-container .cards-name {
+        font-size: 8px;
+    }
+
+    main .category h2 {
+        font-size: 1em;
+    }
+
+    .hamburger-menu {
+        font-size: 10px;
+    }
+
+    .container-header .container-logo-nav .logo-header h1 {
+        font-size: 1.3em;
+    }
+}
