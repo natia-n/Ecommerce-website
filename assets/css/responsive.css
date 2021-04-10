@@ -33,7 +33,7 @@
         font-size: 12px;
     }
 
-    .hamburger-menu{
+    .burger-menu{
         display: inline-block;
     }
 
@@ -44,6 +44,7 @@
     .category-menu{
         display: none;
     }
+
         
 }
 
@@ -145,6 +146,10 @@
     .container-header .container-logo-nav .nav-container .button-header {
         display: none;
     }
+    
+    .container-header .container-logo-nav .nav-container .menu .menu-button-header{
+        display: flex;
+    }
 
     main .container-categories .baner {
         height: auto;
@@ -223,7 +228,7 @@
 
     .container-header .container-logo-nav .nav-container .button-header {
         display: none;
-    }
+    }    
 
     main .container-categories .baner>div a {
         font-size: 8px;
@@ -261,7 +266,7 @@
         font-size: 1em;
     }
 
-    .hamburger-menu {
+    .burger-menu {
         font-size: 10px;
     }
 
