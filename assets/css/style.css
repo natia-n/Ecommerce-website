@@ -163,7 +163,7 @@ main{
 }
 
 main .container-categories .baner {    
-    width: 33.75em;   
+    width: 33em;   
     height: 30.625em;
     box-sizing: border-box;
     position: relative;
@@ -390,7 +390,7 @@ main .section-news {
 }
 
 main .section-news div {
-    width: 33.75em;
+    width: 33em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -689,6 +689,7 @@ main .last-from-blog .sub-blog .bacg-color div p {
     text-decoration: none;
     color: #121212;
     display: none;
+    cursor: pointer;
 }
 
 .burger-menu>span{
