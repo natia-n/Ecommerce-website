@@ -1,0 +1,86 @@
+main .category {
+    margin-top: 0;
+}
+
+main .category header {
+    display: block;
+}
+
+main .category .category-page {
+    background-color: #FEFEFE;
+}
+
+main .category-page img {
+    width: 32px;
+    cursor: pointer;
+}
+
+main .category-name {
+    display: block;
+    padding: 12px 0 25px 0;
+    background-color: #F8F8F8;
+}
+
+main .category-name a {
+    text-decoration: none;
+    color: #121212;
+    opacity: 0.6;
+    font-size: 11px;
+}
+
+main .category-name .women {    
+    opacity: 1;
+}
+
+main .category-name .share {    
+    opacity: 1;
+}
+
+main .category-name h2 {
+    margin-top: 15px;
+}
+
+main .category-name img {
+    margin: 0 11px;
+}
+
+main .category-name .content-container>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .categori-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+main .categori-menu .filter img {
+    width: 21px;
+    cursor: pointer;
+}
+
+main .categori-menu .filter span {
+    vertical-align: bottom;
+    margin-left: 17px;
+    font-size: 13px;
+    color: #121212;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+main .categori-menu .viev img {
+    width: 16px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+main .categori-menu .menu-select select {     
+    font-size: 13px;
+    color: #121212;
+    opacity: 0.6;
+    border: none;
+}
+
+
